@@ -1,0 +1,352 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    align-items: left;
+    margin-left: 17%;
+    margin-top: 12px;
+    font-size: 0.8em;
+}
+
+.logo {
+    width: 13%;
+    height: auto;
+    float: left;
+}
+
+nav {
+    position: fixed;
+    background-color: #1C203D;
+    width: 62%;
+    height: auto;
+    margin-top: 15px;
+    float: left;
+    color: rgb(255, 255, 255);
+    margin-left: 19%;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.banner-area {
+    width: 100%;
+    height: 66.5vh;
+    background-image: url(/images/Background\ image.jpeg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.color-overlay {
+    background: linear-gradient(270deg, #FFFFFF 0%, rgba(255, 255, 255, 0.399068) 0%, rgba(255, 255, 255, 0.195816) 0%, rgba(255, 255, 255, 0.113781) 0%, rgba(255, 255, 255, 0.104798) 19.28%, rgba(255, 255, 255, 0) 38.34%, rgba(255, 255, 255, 0) 52.47%, rgba(255, 255, 255, 0.0388198) 64.13%, rgba(255, 255, 255, 0) 72.31%, rgba(255, 255, 255, 0) 77.69%, rgba(255, 255, 255, 0) 82.4%, rgba(255, 255, 255, 0) 86.88%, rgba(255, 255, 255, 0) 90.47%), #1C203D;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+
+.intro {
+    position: absolute;
+    text-align: left;
+    color: white;
+    height: 50%;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    width: 60%;
+    margin-top: 7%;
+}
+
+.intro-text1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 1%;
+    width: 60%;
+}
+
+.intro-text2 {
+    margin-top: 2%;
+    width: 55%;
+}
+
+.intro-text3 {
+    margin-top: 2%;
+    height: 10%;
+}
+
+.spanabout {
+    display: block;
+    margin-top: 1%;
+    width: 175px;
+    height: 3px;
+    background: #fff;
+}
+
+.content {
+    height: 33.5vh;
+}
+
+.button1 {
+    display: inline-block;
+    border: 2px solid #0b6eca;
+    background: #0b6eca;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 38px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    width: 200px;
+    text-align: center;
+}
+
+.button1:hover {
+    border: 2px solid #084f91;
+    background: #084f91;
+}
+
+.button2 {
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    border: 2px solid #D9EDFF;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 38px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background: #fff;
+    width: 140px;
+    margin-right: 40px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button2:hover {
+    background: rgba(110, 110, 110, 0.822);
+}
+
+.content-title {
+    margin-bottom: 2%;
+    margin-top: 2.5%;
+    color: #2251b4;
+    font-size: 1.2em;
+}
+
+.logo-animation {
+    margin-left: 15%;
+    width: 75%;
+    height: 75px;
+    background: url(/images/Carrousel\ image\ 1.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.logo-animation2 {
+    margin-left: 15%;
+    width: 75%;
+    height: 75px;
+    background: url(/images/Carrousel\ image\ 2.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container {
+    height: 80vh;
+}
+
+.content-title2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2251b4;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) 0 repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr) 0 repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 2 / 2 / 4 / 4;
+    border: solid rgba(0, 0, 0, 0.137) 1px;
+    height: 200px;
+}
+
+.div1:hover {
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+}
+
+.div2 {
+    grid-area: 6 / 2 / 8 / 4;
+    border: solid rgba(0, 0, 0, 0.137) 1px;
+}
+
+.div2:hover {
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+}
+
+.div3 {
+    grid-area: 2 / 6 / 4 / 8;
+    border: solid rgba(0, 0, 0, 0.137) 1px;
+}
+
+.div3:hover {
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+}
+
+.div4 {
+    grid-area: 6 / 6 / 8 / 8;
+    border: solid rgba(0, 0, 0, 0.137) 1px;
+}
+
+.div4:hover {
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+}
+
+.icon {
+    width: 25%;
+    margin-top: 3%;
+    margin-left: -5%;
+}
+
+.box-title {
+    text-align: left;
+    width: 85%;
+    margin-left: 5%;
+    margin-top: 1.5%;
+}
+
+.box-text {
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
+    height: 47%;
+}
+
+.span-boxes {
+    display: block;
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 30px;
+    height: 3px;
+    background: #2251b4;
+}
+
+.long-box {
+    border: solid rgba(0, 0, 0, 0.137) 1px;
+    width: 55%;
+    height: 220px;
+    margin-left: 22.5%;
+}
+
+.long-box:hover {
+    -webkit-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    -moz-box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+    box-shadow: 6px 10px 5px 0px rgba(214, 211, 214, 1);
+}
+
+.small-box {
+    border-right: solid rgba(0, 0, 0, 0.137) 1px;
+    width: 15%;
+    height: 100%;
+    background: url(/images/Ebook\ image.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.long-title {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: -9%;
+    font-size: 0.7em;
+}
+
+.long-text {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: -7%;
+    font-size: 0.9em;
+    text-align: left;
+}
+
+.long-link {
+    position: absolute;
+    margin-left: 12%;
+    margin-top: -4%;
+    font-size: 0.9em;
+    text-align: left;
+    text-decoration: none;
+}
+
+.none {
+    text-decoration: none;
+}
+
+.container2 {
+    position: relative;
+    margin-top: 5%;
+    height: 80vh;
+}
+
+.truck-img {
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    height: 55%;
+    background: url(/images/Image_trucks_2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.last-text {
+    text-align: center;
+    background-color: #fff;
+    border: solid rgba(0, 0, 0, 0.075) 0.1px;
+    width: 30%;
+    height: 35%;
+    margin-top: -7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    margin: 7%;
+}
+
+.center-name {
+    margin-top: -3%;
+    margin-bottom: 2%;
+}
